@@ -14,8 +14,9 @@ public class Employe {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id
+    private Long id;
 
+    //point virgule ajouté pour que le test passe
     private String nom;
 
     private String prenom;
